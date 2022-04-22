@@ -19,7 +19,11 @@ RPO Gadget | [@filedescriptor](https://twitter.com/filedescriptor) | https://blo
 Detecting And Exploiting PRSSI | [James Kettle](https://twitter.com/albinowax) | https://portswigger.net/research/detecting-and-exploiting-path-relative-stylesheet-import-prssi-vulnerabilities
 
 ## How to use?
-```python3 rpo.py <target_domain>```
+```python3 rpo.py <target_domain>``` 
 
 ## Required Module
 ```pip3 install requests```
+
+## For Bulk Uploader  
+```apt install colorized-logs```  
+```python3 RPO_Bulk_Upload.py | ansi2html > output.html```
